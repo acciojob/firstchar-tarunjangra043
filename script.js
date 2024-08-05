@@ -1,7 +1,11 @@
 function firstChar(text) {
   // your code here
 	let newText = text.trim();
-	return newText[0];
+	if(newText.length == 0){
+		return '';
+	}else{
+		return newText[0];
+	}
 }
 
 // Do not change the code below
